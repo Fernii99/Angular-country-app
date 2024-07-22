@@ -19,6 +19,8 @@ export class CountryPageComponent implements OnInit{
     private router: Router
    ) {}
 
+
+  // The ngOnInit runs just right after the component is built, 
   ngOnInit(): void {
     this.activatedRoute.params
     .pipe(
